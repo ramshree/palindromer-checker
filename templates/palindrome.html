@@ -1,7 +1,7 @@
+{% extends "base.html" %}
 
 
 {% block content %}
-<h1>Palindrome Checker</h1>
 <form role="form" action="" method="post">
     {% csrf_token %}
     {{ form.as_p }}

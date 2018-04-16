@@ -19,6 +19,5 @@ from django.urls import path
 from PalindromeChecker import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-path('palindrome/', views.palindrome, name='palindrome')
+    path('', views.palindrome, name='palindrome')
 ]
