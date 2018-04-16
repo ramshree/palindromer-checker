@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="636e62a9-4d99-4e6a-84cc-acb5019de55e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PalindromeChecker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PalindromeChecker/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/palindrome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/palindrome.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PalindromeChecker/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" lean-forward="true" selection-start-column="37" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -226,13 +233,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PalindromeChecker/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PalindromeChecker/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -298,6 +298,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PalindromeChecker/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" lean-forward="true" selection-start-column="37" selection-end-column="49" />
         </state>
       </provider>
     </entry>
