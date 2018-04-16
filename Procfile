@@ -1,1 +1,1 @@
-web: gunicorn PalindromerChecker.wsgi --log-file -
+web: gunicorn PalindromeChecker.wsgi --log-file -
