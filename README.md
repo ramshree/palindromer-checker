@@ -1,4 +1,52 @@
 # palindromer-checker
 
 
+This an django/Python app to validate strings if its a palindrome or not.
 
+
+System requirements
+
+- python 3 or greater
+- mac or windows
+- django 2.0.4 or greater
+- latest version of PyCharm editor
+
+
+Setup instructions on Mac (Use terminal)
+
+1. Open Terminal (Applications > Utilities > Terminal)
+
+2. Install python 3.6 with homebrew from terminal
+    ~$ brew install python
+
+3. Install pip (Python Package installer)
+    ~$ sudo easy_install pip
+
+4. Install virtualenv (this is to contain all the changes we make instead of global)
+    ~$ sudo pip install virtualenv
+
+5. Create a folder pythondev to store all the code
+    a. ~$ mkdir pythondev
+    b. ~$ cd pythondev
+
+6. Create a new virtualenv (django-dev is our virtual env)
+    ~$ virtualenv django-dev -p python3.6
+
+7. Activate virtualenv (the resulting command line will point to django-dev)
+    ~$ . bin/activate
+
+8. Install Django
+    ~$ pip install django
+
+9. Create a project
+    ~$ django-admin startproject palindrome-checker
+    ~$ cd palindrome-checker
+
+10. I usually start the server to see how my project is building. Leave this open and server running.
+    To shutdown Ctrl+C
+    ~$ python manage.py runserver
+
+11. Open the folder from PyCharm (File-> Open) and select the palindrome-checker folder
+
+12. To run the tests. Look for the test result
+    ~$ python manage.py test
