@@ -1,18 +1,20 @@
 # palindromer-checker
 
 
-This an django/Python app to validate strings if its a palindrome or not.
+A django/Python app to validate strings if its a palindrome or not.
 
 
-System requirements
+<h3>System requirements</h3>
 
 - python 3 or greater
 - mac or windows
 - django 2.0.4 or greater
 - latest version of PyCharm editor
+- github for version control
+- Heroku to host the app
 
 
-Setup instructions on Mac (Use terminal)
+<h3>Setup instructions on Mac (Use terminal)</h3>
 
 1. Open Terminal (Applications > Utilities > Terminal)
 
@@ -50,3 +52,12 @@ Setup instructions on Mac (Use terminal)
 
 12. To run the tests. Look for the test result
     ~$ python manage.py test
+    
+<h3>Hosting on heroku</h3>
+
+1. Create or login to <href>https://heroku.com</href>
+
+2. Link your github account to pull the app 
+
+3. Setup automatic deployment of app after commit
+
