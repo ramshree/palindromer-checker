@@ -6,12 +6,12 @@ A django/Python app to validate strings if its a palindrome or not.
 
 <h3>System requirements</h3>
 
-- python 3 or greater
-- mac or windows
-- django 2.0.4 or greater
-- latest version of PyCharm editor
-- github for version control
-- Heroku to host the app
+1. python 3 or greater
+2. mac or windows
+3. django 2.0.4 or greater
+4. latest version of PyCharm editor
+5. github for version control
+6. Heroku to host the app
 
 
 <h3>Setup instructions on Mac (Use terminal)</h3>
