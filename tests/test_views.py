@@ -5,7 +5,7 @@ from django.urls import reverse
 class PalindromeViewsTest(TestCase):
 
     def test_valid_view(self):
-        str = "palindrome_string"
+        str = "word"
         url = reverse("palindrome")
         resp = self.client.get(url)
 
