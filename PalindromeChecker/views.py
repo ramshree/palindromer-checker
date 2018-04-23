@@ -5,20 +5,20 @@ from PalindromeChecker import palindrome as p
 
 
 def palindrome(request):
-    form_class = PalindromeForm
+    form = PalindromeForm
 
     if request.method == 'POST':
         form = PalindromeForm(request.POST)
 
         if form.is_valid():
-
-            if p.Palindrome.palindrome_check(form.cleaned_data['palindrome_string']):
-                return HttpResponse(form.cleaned_data['palindrome_string'] + " is a palindrome!!")
+            s_query = form.cleaned_data['word']
+            if p.Palindrome.palindrome_check(s_query):
+                s_results = s_query + " is a palindrome!!"
             else:
-                return HttpResponse(form.cleaned_data['palindrome_string'] + " is not a palindrome!!")
+                s_results = s_query + " is not a palindrome!!"
+
+            return render(request, 'palindrome.html', {'form': form, 's_results': s_results})
         else:
             return HttpResponse("no thank you")
     else:
-        return render(request, 'palindrome.html', {
-            'form': form_class
-    })
+        return render(request, 'palindrome.html', {'form': form, })

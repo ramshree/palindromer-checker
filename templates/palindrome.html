@@ -1,10 +1,28 @@
 {% extends "base.html" %}
 
-
 {% block content %}
-<form role="form" action="" method="post">
+
+<form action=" " method="POST">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
+    <div class="jumbotron">
+        <div class="container">
+            <form role="form" action="" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <a href="">
+                    <button type="submit" class="btn btn-primary">Check Palindrome</button>
+                </a>
+            </form>
+        </div>
+    </div>
 </form>
+
+{% if s_results %}
+    <div class="jumbotron">
+        <div class="container">
+            {{ s_results }}
+        </div>
+    </div>
+{% endif %}
+
 {% endblock %}
